@@ -9,6 +9,8 @@ To handle the complexity and uncertainty of UNO, the implementation includes:
 
 In total, 36 models were tested (2 algorithms × 3 depths × 6 heuristics).
 
+![UNO](uno%20game.png)
+
 ## Game analysis
 Minimax assumes a perfectly rational opponent and works well for short-term strategies. On the other hand, Expectimax incorporates probabilities (using the hypergeometric distribution) to model uncertainity, especially regarding the opponent's hidden cards and the draw pile. \
 The performance of both algorithms was tested on 9 predefined test cases, covering scenarios with only numbered cards, only special cards, or a mix of both. This ensured fair evaluation across all 36 models. \
