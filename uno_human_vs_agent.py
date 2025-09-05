@@ -264,7 +264,7 @@ def high_damage_cards(state):
 
     return score
 
-# heuristic 3: combination of the first and second combination
+# heuristic 3: combination of the first and second heuristic
 def same_color_and_high_damage_cards(state):
     if state.winner is not None:
         return 10000 if state.winner == 1 else -10000
